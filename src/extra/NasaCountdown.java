@@ -19,7 +19,15 @@ public class NasaCountdown {
 		// 3. Change the countdown to use the new starting point
 		
 		// 1. Print a countdown from 10 to 0 on the console
-	
+	int i;
+	for (i = 10; i >= 0 ; i--) {
+	Thread.sleep(1000);
+	speak(i+"");
+	System.out.println(i);	
+	}
+	speak("BLASTOFF");
+	System.out.println("BLASTOFF!");
+
 			// 4. Use the speak method to hear the countdown.
 		
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
