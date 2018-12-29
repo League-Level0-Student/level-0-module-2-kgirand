@@ -15,13 +15,13 @@ public static void main(String[] args) {
 	int i = new Random().nextInt(4);
 	JOptionPane.showInputDialog(null, "What would you like to ask the Magic 8 ball?");
 	if(i==0) {
-	JOptionPane.showMessageDialog(null, "Yes");
+	JOptionPane.showMessageDialog(null, "yes");
 	}
 	else if(i==1) {
-		JOptionPane.showMessageDialog(null, "No");
+		JOptionPane.showMessageDialog(null, "no");
 		}
 	else if(i==2) {
-	JOptionPane.showMessageDialog(null, "I don't know. Maybe");
+	JOptionPane.showMessageDialog(null, "i don't know. maybe");
 	}
 	else if (i==3) {
 	JOptionPane.showMessageDialog(null, "figure it out yourself" );
